@@ -1,4 +1,4 @@
-@Library('jenkins-library')
+@Library('jenkins-library@feature/change-dep-confusion-scaner')
 
 def pipeline = new org.js.AppPipeline(
     packageManager:     'pnpm',
